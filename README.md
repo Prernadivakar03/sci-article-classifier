@@ -26,7 +26,6 @@ nlp_mini_project/
 
 ## ⚙️ Setup
 ```bash
-cd nlp_mini_project
 python -m venv venv
 source venv/bin/activate        # (Windows: venv\Scripts\activate)
 pip install -r requirements.txt
@@ -80,30 +79,27 @@ The dashboard has 5 pages (sidebar):
    ```
 3. Re-run `python src/train_evaluate.py` — no other code changes required.
 
-## ✅ Submission Checklist (as per instructions given)
-**Handwritten (on plain A4 sheets):**
-- [ ] Problem Statement (REPORT.md §1)
-- [ ] Theory of all preprocessing techniques (REPORT.md §2)
-- [ ] Theory of all ML/other algorithms used — Naive Bayes, Logistic
-      Regression, Self-Attention/Transformer (REPORT.md §3–4)
-- [ ] Theory of evaluation metrics (REPORT.md §5)
 
-**Printed (attach after handwritten pages):**
-- [ ] Code printouts (`src/*.py`, `data/generate_dataset.py`, `dashboard/app.py`)
-- [ ] Output printouts (screenshots of terminal output + all PNGs in `outputs/`)
-- [ ] Conclusion (REPORT.md §7, plus §6 results discussion)
-- [ ] Dashboard screenshots (each of the 5 Streamlit pages)
+🚀 Deployment
 
-**Cover pages (light pink paper, front & back):**
-- [ ] Use `pink_cover_page.html` — open in a browser and print on **light
-      pink** paper (not dark/fluorescent pink) — fields in the top-right
-      corner: Name, Roll No, Div, Class, Topic
-- [ ] Bind all sheets with a **blue ribbon** (no stapler pins)
+The Streamlit dashboard is deployed and publicly accessible online.
 
-## 👥 Choosing your project partner
-This is a two-member submission. I can't pick a real classmate for you —
-that's a decision to make with someone in your class (check the roll-number
-→ topic mapping in your Excel sheet to see who else was assigned this exact
-topic, since pairs are often formed with a topic-mate, or ask a friend and
-confirm with your instructor whether partner choice is free or fixed by
-roll number). Once decided, just fill both names into the pink cover page.
+🌐 Live Demo
+
+Scientific Article Classification App:
+https://sci-article-classifier-3.streamlit.app/
+
+The deployed application allows users to:
+
+Explore the scientific article dataset
+View model performance and evaluation results
+Enter a scientific abstract for live classification
+Analyze articles using the NLP pipeline
+View prediction confidence and other analytical insights
+
+☁️ Deployment Platform
+
+The application is deployed using Streamlit Community Cloud.
+The deployment is connected to this GitHub project, so the Streamlit dashboard can be accessed directly through the live URL above.
+
+Note: The deployed version uses the trained model artifacts and project files available in the repository. If the project is updated, the deployed application can be redeployed to reflect the latest changes.

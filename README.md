@@ -1,5 +1,7 @@
 # Scientific Article Classification using Self-Attention Networks with Long-Context Representation Learning
 
+#The APP is LIVE : https://sci-article-classifier-3.streamlit.app/
+
 ## 📁 Folder Structure
 ```
 nlp_mini_project/

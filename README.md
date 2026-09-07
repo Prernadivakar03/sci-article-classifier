@@ -1,5 +1,4 @@
 # Scientific Article Classification using Self-Attention Networks with Long-Context Representation Learning
-### NLP Mini Project — Due 9 Sep 2026
 
 ## 📁 Folder Structure
 ```

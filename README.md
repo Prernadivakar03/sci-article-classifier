@@ -1,6 +1,6 @@
 # Scientific Article Classification using Self-Attention Networks with Long-Context Representation Learning
 
-# The APP is LIVE : https://sci-article-classifier-3.streamlit.app/
+## The APP is LIVE : https://sci-article-classifier-3.streamlit.app/
 
 ## 📁 Folder Structure
 ```
@@ -80,14 +80,14 @@ The dashboard has 5 pages (sidebar):
 3. Re-run `python src/train_evaluate.py` — no other code changes required.
 
 
-🚀 Deployment
+## 🚀 Deployment
 
 The Streamlit dashboard is deployed and publicly accessible online.
 
-🌐 Live Demo
+## 🌐 Live Demo
 
-Scientific Article Classification App:
-https://sci-article-classifier-3.streamlit.app/
+### Scientific Article Classification App:
+### https://sci-article-classifier-3.streamlit.app/
 
 The deployed application allows users to:
 

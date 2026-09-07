@@ -1,0 +1,4 @@
+Model,accuracy,precision,recall,f1_score
+Naive Bayes (TF-IDF),0.7725,0.7763,0.7725,0.7722
+Logistic Regression (TF-IDF),0.885,0.886,0.885,0.8851
+Self-Attention Transformer,0.2,0.04,0.2,0.0667

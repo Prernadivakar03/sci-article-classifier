@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cover Page</title>
+<style>
+  @page { size: A4; margin: 0; }
+  body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+  }
+  .sheet {
+    width: 210mm;
+    height: 297mm;
+    box-sizing: border-box;
+    padding: 15mm;
+    position: relative;
+    page-break-after: always;
+  }
+  .sheet:last-child { page-break-after: auto; }
+
+  .info-block {
+    position: absolute;
+    top: 15mm;
+    right: 15mm;
+    text-align: left;
+    font-size: 15pt;
+    line-height: 2.1;
+  }
+  .info-block .field {
+    white-space: nowrap;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+    margin-bottom: 4mm;
+    min-width: 85mm;
+    display: inline-block;
+  }
+  .center-title {
+    position: absolute;
+    top: 130mm;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .center-title h1 {
+    font-size: 22pt;
+    margin: 0 0 6mm 0;
+  }
+  .center-title h2 {
+    font-size: 14pt;
+    font-weight: normal;
+    margin: 0 20mm;
+  }
+  .note {
+    position: absolute;
+    bottom: 15mm;
+    left: 15mm;
+    right: 15mm;
+    font-size: 10pt;
+    color: #444;
+    text-align: center;
+    font-style: italic;
+  }
+
+  /* Print helper note — hidden when actually printing */
+  .print-instructions {
+    background: #fff3f3;
+    border: 2px dashed #d63384;
+    padding: 6mm;
+    margin: 10mm;
+    font-size: 11pt;
+  }
+  @media print {
+    .print-instructions { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="print-instructions">
+  <b>How to use this file:</b>
+  Print BOTH pages of this file directly onto <u>light pink</u> paper
+  (strictly light pink — not dark or fluorescent pink).
+  Page 1 = FRONT cover, Page 2 = BACK (last) cover.
+  Fill in the underlined fields by hand after printing. Place all your A4
+  report sheets between these two pink covers and bind everything with a
+  <b>blue ribbon</b> (stapler pins are not allowed).
+</div>
+
+<!-- PAGE 1: FRONT COVER -->
+<div class="sheet">
+  <div class="info-block">
+    <div>Name: <span class="field">&nbsp;</span></div>
+    <div>Roll No: <span class="field">&nbsp;</span></div>
+    <div>Div: <span class="field">&nbsp;</span></div>
+    <div>Class: <span class="field">&nbsp;</span></div>
+    <div>Topic: <span class="field">&nbsp;</span></div>
+  </div>
+
+  <div class="center-title">
+    <h1>NLP Mini Project</h1>
+    <h2>Scientific Article Classification using Self-Attention Networks<br>
+        with Long-Context Representation Learning</h2>
+  </div>
+
+  <div class="note">Front Cover — Light Pink Paper</div>
+</div>
+
+<!-- PAGE 2: BACK COVER -->
+<div class="sheet">
+  <div class="info-block">
+    <div>Name: <span class="field">&nbsp;</span></div>
+    <div>Roll No: <span class="field">&nbsp;</span></div>
+    <div>Div: <span class="field">&nbsp;</span></div>
+    <div>Class: <span class="field">&nbsp;</span></div>
+    <div>Topic: <span class="field">&nbsp;</span></div>
+  </div>
+
+  <div class="note">Back Cover — Light Pink Paper</div>
+</div>
+
+</body>
+</html>

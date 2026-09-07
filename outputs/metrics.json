@@ -1,0 +1,31 @@
+{
+  "results": {
+    "Naive Bayes (TF-IDF)": {
+      "accuracy": 0.7725,
+      "precision": 0.7763,
+      "recall": 0.7725,
+      "f1_score": 0.7722
+    },
+    "Logistic Regression (TF-IDF)": {
+      "accuracy": 0.885,
+      "precision": 0.886,
+      "recall": 0.885,
+      "f1_score": 0.8851
+    },
+    "Self-Attention Transformer": {
+      "accuracy": 0.2,
+      "precision": 0.04,
+      "recall": 0.2,
+      "f1_score": 0.0667
+    }
+  },
+  "class_names": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CV",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "n_samples": 2000,
+  "n_classes": 5
+}

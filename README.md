@@ -19,8 +19,6 @@ nlp_mini_project/
 ├── dashboard/
 │   └── app.py                  # Streamlit analytical dashboard
 ├── requirements.txt
-├── REPORT.md                   # theory + report content for the handwritten submission
-├── pink_cover_page.html        # printable pink front/back cover page template
 └── README.md                   # this file
 ```
 
